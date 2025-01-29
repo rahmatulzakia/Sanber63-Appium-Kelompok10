@@ -1,0 +1,11 @@
+input_username: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]
+input_password: //android.widget.EditText[@resource-id="com.example.myapplication:id/password"]
+click_signin: //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
+success_signin: //android.widget.TextView[@resource-id="com.example.myapplication:id/textView"]
+failed_signin: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.view.ViewGroup
+search_header: //android.widget.Button[@resource-id="com.example.myapplication:id/search_flight"]
+input_flight: //android.widget.EditText[@resource-id="com.example.myapplication:id/flight_number"]
+search_flight: //android.widget.Button[@resource-id="com.example.myapplication:id/searchFlight"]
+#failed_search: Please enter valid Flight Number
+error_message_search: Please enter valid Flight Number
+booked_data: //android.widget.TableLayout
