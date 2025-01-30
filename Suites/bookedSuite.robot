@@ -1,6 +1,6 @@
 *** Settings ***
 Resource        ../PageObjects/base.robot
-Resource        ../PageObjects/LoginPage/loginPage.robot
+Resource        ../PageObjects/LoginPage/LoginPage.robot
 Resource        ../PageObjects/BookPage/BookedPage.robot
 Test Setup    Run Keywords    
 ...    Open Flight Application  
